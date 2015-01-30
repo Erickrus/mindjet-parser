@@ -5,6 +5,11 @@ Currently, this library only support to extract text from mmap.
 1. Topic and Parser class are designed: 
    to extract information from mindjet with its text and path.
    The result will be a TopicTree.
+   A Series of mindjet TopicTree accessing API functions are defined here, such as:
+   * members:
+      * text, path, parent, children
+   * functions:
+      * getParentText(), isLeaf(), getChildren(), getAllChildren(), selectNodes(), selectFirstNode(), directChildrenTextContains(), toString()
 
 2. AttributedTopic class is designed:
    to extract attributed information/grand children text from a parsed TopicTree.
