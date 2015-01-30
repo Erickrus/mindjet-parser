@@ -1,5 +1,5 @@
 # mindjet-parser
-Java based Mindjet Parser Library and Customized Implementation Sample
+A Java-based Mindjet Parser Library and Customized Implementation with Sample
 
 1. Topic/Parser class is designed: 
    to extract information from mindjet with its text and path.
@@ -10,8 +10,9 @@ Java based Mindjet Parser Library and Customized Implementation Sample
    Thus an AttributedTopic Tree will be built based on a Topic Tree
    This class contains general template functions for this kind of works
 
-3. CubeTopic class is an implmenetation of Attributed Topic
-   with the class, such structured mindjet tree could be easily parsed and flattened to structured Text
+3. CubeTopic class is an implmenetation of Attributed Topic.
+   With CubeTopic, structured mindjet tree could be parsed and flattened to structured Text.
+   Below is a demo of "CUBE topic"
 
 * CUBE
   * Measures
